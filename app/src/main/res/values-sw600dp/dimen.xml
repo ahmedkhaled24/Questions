@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <item name="another_layout" type="layout" tools:ignore="MissingDefaultResource">@layout/activity_main</item>
+    <item name="layout_second" type="layout" tools:ignore="MissingDefaultResource">@layout/activity_second</item>
+    <dimen name="btn_questions_RateApp_w">280dp</dimen>
+    <dimen name="btn_questions_RateApp_h">80dp</dimen>
+    <dimen name="size_btn">50sp</dimen>
+
+    <dimen name="text_size_xxyy">25sp</dimen>
+    <dimen name="btn_voice_w">60dp</dimen>
+    <dimen name="btn_voice_h">60dp</dimen>
+    <dimen name="textsize_questions">40sp</dimen>
+    <dimen name="textsize_show_answer">34sp</dimen>
+    <dimen name="next_back_w">85dp</dimen>
+    <dimen name="next_back_h">80dp</dimen>
+    <dimen name="answer_btn_w_h">80dp</dimen>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/coverr">
+
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_questions"
+            android:layout_width="@dimen/btn_questions_RateApp_w"
+            android:layout_height="@dimen/btn_questions_RateApp_h"
+            android:inputType="text"
+            android:text="@string/Questions"
+            android:textStyle="bold"
+            android:textColor="@color/colorQuestions"
+            android:textSize="@dimen/size_btn"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/state_front_btn"/>
+
+
+        <Button
+            android:id="@+id/btn_rateApp"
+            android:layout_width="@dimen/btn_questions_RateApp_w"
+            android:layout_height="@dimen/btn_questions_RateApp_h"
+            android:inputType="text"
+            android:text="@string/RateApp"
+            android:textStyle="bold"
+            android:textColor="@color/colorRateApp"
+            android:textSize="@dimen/size_btn"
+            android:layout_below="@+id/btn_questions"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/state_front_btn"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

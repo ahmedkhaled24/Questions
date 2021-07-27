@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ques">
+        <item>Who is the best player in the world in 2006 ?</item>
+        <item>Who scored Germany s goal in the 2014 World Cup Final ?</item>
+        <item>Who was wearing number 7 before Ronaldo came to Real Madrid ?</item>
+        <item>Who is the best player in the 2013 Premier League ?</item>
+        <item>In what year did Ricardo Kaka win the best player in the world ?</item>
+        <item>Who is the current Spain coach?</item>
+    </string-array>
+
+    <string-array name="answs">
+        <item>Fabio Cannavaro</item>
+        <item>Mario Gotza</item>
+        <item>Raúl González</item>
+        <item>Gareth Bale</item>
+        <item>Ricardo Kaká won in 2007</item>
+        <item>Luis Enrique</item>
+    </string-array>
+
+
+
+
+
+
+</resources>

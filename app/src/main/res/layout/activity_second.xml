@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".SecondActivity"
+    android:background="@color/color_background_questions">
+
+    <LinearLayout
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/color_head">
+        <TextView
+            android:id="@+id/num_xx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XX/"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_xxyy"
+            android:textColor="@color/color_xxyy"/>
+        <TextView
+            android:id="@+id/num_yy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YY"
+            android:textColor="@color/color_xxyy"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_xxyy"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="28"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_voice"
+            android:onClick="showAction"
+            android:layout_width="@dimen/btn_voice_w"
+            android:layout_height="@dimen/btn_voice_h"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/state_voice"/>
+        <TextView
+            android:id="@+id/tx_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="questions"
+            android:textSize="@dimen/textsize_questions"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color_xxyy"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="52"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tx_show_answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Press on the eye to show the answer"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginEnd="7dp"
+                    android:textSize="@dimen/textsize_show_answer"
+                    android:textColor="@color/color_txs"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="12"
+        android:gravity="center"
+        android:background="@color/color_head">
+
+        <Button
+            android:onClick="showAction"
+            android:id="@+id/btn_back"
+            android:layout_width="@dimen/next_back_w"
+            android:layout_height="@dimen/next_back_h"
+            android:background="@drawable/state_back"/>
+        <Button
+            android:onClick="showAction"
+            android:id="@+id/btn_answer"
+            android:layout_width="@dimen/answer_btn_w_h"
+            android:layout_height="@dimen/answer_btn_w_h"
+            android:background="@drawable/state_answer"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+        <Button
+            android:onClick="showAction"
+            android:id="@+id/btn_next"
+            android:layout_width="@dimen/next_back_w"
+            android:layout_height="@dimen/next_back_h"
+            android:background="@drawable/state_next"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

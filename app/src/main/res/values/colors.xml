@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#000B09</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorRateApp">#ffffff</color>
+    <color name="colorQuestions">#ffffff</color>
+    <color name="btn_pressed">#3EB097</color>
+    <color name="color_head">#cbbcb1</color>
+    <color name="color_xxyy">#556052</color>
+    <color name="color_txs">#af6b58</color>
+    <color name="color_background_questions">#f2efea</color>
+</resources>
