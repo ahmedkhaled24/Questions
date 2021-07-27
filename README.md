@@ -1,5 +1,7 @@
 # Questions-App
 
+This application contains a set of football questions and you can test yourself
+
 Using: Intent, Button, TextView and TextToSpeech
 
 ................................................
